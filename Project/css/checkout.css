@@ -1,0 +1,292 @@
+
+.container{
+    padding: 10px 20px; 
+}
+
+body{
+    background-color: #EDE9E3;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #D4B2A7;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 10 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+    position: relative;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: #fff !important;
+}
+
+ul{
+    border-top: solid 3px black;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    margin: 35px;
+    font-size:medium;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #C9C0BB !important;
+    background-color: #D4B2A7 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    text-align: center;
+}
+
+.navbar-brand img {
+    max-width: 200px; 
+    max-height: 200px; 
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+.information{
+    text-align: center;
+    font-size: small;
+    padding-top: 20px;
+}
+
+.fa{
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #D4B2A7;
+    border-radius: 50px;
+    display: inline;
+}
+
+.fa img{
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+} 
+
+.about a{
+    display: inline;
+    margin: 8%;
+    color: black;
+}
+
+footer {
+    background-color: #D4B2A7;
+}
+
+/*Checkout*/
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.container-cart{ 
+    margin: 10PX; 
+    width: 100%; 
+    padding: 30px;
+    border-radius: 12px;
+    background-color:rgb(240, 229, 229); 
+}
+
+.col-25 {
+    -ms-flex: 25%;
+    flex: 25%;
+}
+
+.col-50 {
+    -ms-flex: 50%;
+    flex: 50%;
+    padding: 0 16px;
+    margin-left: 20px;
+}
+
+.col-75 {
+    -ms-flex: 75%;
+    flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+padding: 0 16px;
+}
+
+.container-2{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type=submit]{
+    width: 25%;
+    margin-left: 37%;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+span.price {
+    float: right;
+    color: grey;
+}
+
+@media (max-width: 800px) {
+.row {
+    flex-direction: column-reverse;
+}
+.col-25 {
+    margin-bottom: 20px;
+}
+}
+
+.container-cart-checkout {
+    padding: 10px 20px; 
+}
+
+.btn-checkout {
+    background-color: #D4B2A7;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 23px;
+}
+
+.btn:hover {
+    background-color: #D4B2A7;
+}
+
+.container-billing {
+    padding: 10px 20px; 
+    margin: 10PX; 
+    width: 100%; 
+    padding: 30px;
+    border-radius: 12px;
+    background-color:rgb(240, 229, 229); 
+}
+
+.container-payment {
+    padding: 10px 20px; 
+    margin: 10PX; 
+    width: 100%; 
+    padding: 30px;
+    border-radius: 12px;
+    background-color:rgb(240, 229, 229); 
+}
+
+.container-checkout {
+    padding: 10px 20px; 
+    margin: 10PX; 
+    width: 100%; 
+    padding: 30px;
+    border-radius: 12px;
+    background-color:rgb(240, 229, 229); 
+}
+
+.col-25 .fa {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(240, 229, 229); 
+    border-radius: 0px;
+    display: inline-block;
+}
+
+.col-25 .fa img {
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+}
+
+.col-25 .fa:hover {
+    opacity: 0.7;
+}
+
+.col-50 .fa {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(240, 229, 229); 
+    border-radius: none;
+    display: inline-block;
+}
+
+.col-50 .fa img {
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+}
+
+.col-50 .fa:hover {
+    opacity: 0.7;
+}
+
+.collapsible{
+    background-color: #777;
+    color:white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover{
+    background-color: #555;
+}
+
+.content{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
